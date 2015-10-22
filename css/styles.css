@@ -41,7 +41,7 @@
   background-image: url("images/coworking.jpg");
   background-repeat: no-repeat;
   background-position: right top;
-  background-size: auto;
+  background-size: cover;
 }
 
 #header h1 {
@@ -88,11 +88,14 @@
   opacity: 0.8;
   border: 1px solid black;
   padding: 30px;
-  width: 260px;
-  position: absolute;
+  width: 300px;
   margin-top: 30px;
-  margin-left: 650px;
   height: 400px;
+  float: right;
+  margin-right: 70px;
+  height: auto;
+  line-height: 1.4;
+
 }
 
 
